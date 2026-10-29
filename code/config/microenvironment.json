@@ -1,0 +1,10 @@
+{
+  "mouse": {"min_cells": 5},
+  "ucell": {"max_rank": 1500, "missing_genes": "impute"},
+  "bootstrap": {"block_size_um": 1000.0, "n_bootstrap": 5000, "seed": 42},
+  "display": {
+    "coordinate_transform": [[1, 0, 0], [0, 1, 0], [0, 0, 1]],
+    "invert_y": true
+  },
+  "human": {"max_angle_se_deg": 10.0}
+}

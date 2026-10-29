@@ -1,0 +1,47 @@
+# Local Python and R environments / runtime files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+.env
+
+# Generated outputs and user-supplied raw data
+outputs/
+input/
+inputs/
+raw_data/
+/data/*
+!/data/.gitkeep
+*.czi
+*.tif
+*.tiff
+
+# Data is supplied through placeholder paths in the analysis configuration.
+# figures/ contains only the six final manuscript SVGs.
+
+# Private native core and owner authorization material
+*.so
+*.pyd
+*.dll
+*.dylib
+*.whl
+*.pem
+*.key
+/owner/
+/private_source/
+/source_backup/
+/verification/
+/Code_Protection/
+/licenses/
+/license.json
+*-license.json
+
+# Packaging output
+/build/
+/dist/
+*.egg-info/

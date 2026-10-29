@@ -1,0 +1,5 @@
+include LICENSE
+recursive-include code *.py *.R *.json *.txt
+include figures/.gitkeep
+include data/.gitkeep
+global-exclude *.so *.pyd *.pyc *.svg

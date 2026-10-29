@@ -1,0 +1,32 @@
+{
+  "rna": {
+    "min_genes": 200,
+    "max_mito_percent": 8.0,
+    "lower_mad_counts": 3,
+    "lower_mad_genes": 3,
+    "upper_mad_mito": 3,
+    "upper_mad_counts": 4,
+    "upper_mad_genes": 4,
+    "target_sum": 10000,
+    "n_highly_variable_genes": 3000,
+    "pca_components": 50,
+    "n_pcs": 30,
+    "leiden_resolutions": [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.8, 1.0, 1.2],
+    "selected_resolution": 0.4,
+    "umap_neighbors": 30,
+    "umap_min_dist": 0.3,
+    "min_positive_markers": 2,
+    "min_ucell_margin": 0.05,
+    "seed": 42
+  },
+  "registration": {
+    "tps_smoothing": 0.0
+  },
+  "neighborhood": {"radius_um": 150.0, "min_cells": 20},
+  "region": {"radius_um": 150.0, "minimum_neurons": 5, "majority": 0.6},
+  "display": {
+    "coordinate_transform": [[1, 0, 0], [0, 1, 0], [0, 0, 1]],
+    "invert_y": true,
+    "registration_color_max_um": 6.0
+  }
+}
